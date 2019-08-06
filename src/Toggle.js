@@ -1,10 +1,18 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-const Toggle = ({ messageVisibility }) => (
+const Toggle = ({ messageVisibility, dispatch }) => (
   <div>
     {messageVisibility && <p>This is toggleable text!</p>}
-    <button>Toggle Me</button>
+    <button
+      onClick={() =>
+        dispatch({
+          type: 'TOGGLE_MESSAGE',
+        })
+      }
+    >
+      Toggle Me
+    </button>
   </div>
 );
 
