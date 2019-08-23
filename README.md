@@ -1,2 +1,2 @@
-LevelUpTutorial's Movie Database
+LevelUpTutorial's Movie Database  
 Live here: https://lumdeebeeredux.netlify.com/
